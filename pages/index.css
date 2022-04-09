@@ -1500,7 +1500,6 @@ template {
 .cards__link {
   text-decoration: none;
   color: var(--dark-black);
-  background-color: #F4F4F4;
 }
 
 @media screen and (max-width: 768px) {
@@ -1512,6 +1511,7 @@ template {
     padding: 20px 20px 16px 20px;
     box-shadow: 0px 20px 140px rgba(0, 0, 0, 0.06);
     box-sizing: border-box;
+    background-color: #F4F4F4;
   }
 }
 .cards__image {
@@ -1542,6 +1542,7 @@ template {
     font-size: 14px;
     line-height: 18px;
     margin: 3px 0 0 0;
+    color: #151515;
   }
 }
 .cards__pagination {
