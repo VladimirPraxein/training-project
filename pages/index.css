@@ -1489,12 +1489,18 @@ template {
   .cards__item {
     margin: 0;
     flex-shrink: 0;
+    transition: all 0.6s;
+    opacity: 0;
   }
 }
+.cards__item_active {
+  opacity: 1;
+}
+
 .cards__link {
   text-decoration: none;
   color: var(--dark-black);
-  background-color: var(--background-color);
+  background-color: #F4F4F4;
 }
 
 @media screen and (max-width: 768px) {

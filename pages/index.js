@@ -35,9 +35,9 @@ const sliderRoads = new Swiper('.road-types__slider', {
 const sliderCards = new Swiper('.bikes__slider', {
   slideClass: 'cards__item',
   wrapperClass: 'cards',
+  slideActiveClass: 'cards__item_active',
   slidesPerView: 1,
   spaceBetween: 40,
-  loop: true,
   pagination: {
     el: '.cards__pagination',
     clickable: true,
