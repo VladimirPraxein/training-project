@@ -1,0 +1,10 @@
+.bikes__slider{
+  display: none;
+  overflow:hidden;
+}
+@media screen and (max-width:768px){
+  .bikes__slider{
+    padding: 90px 18px 44px 18px;
+    transform: translateY(-70px);
+  }
+}

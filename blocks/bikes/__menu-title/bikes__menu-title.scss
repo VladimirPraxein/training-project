@@ -1,0 +1,27 @@
+.bikes__menu-title{
+  display: none;
+}
+@media screen and (max-width:768px) {
+  .bikes__menu-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    transition: all 0.3s;
+    &::after{
+      content: '';
+      background: var(--background-arrows);
+      width: 5px;
+      height: 10px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 5px 10px;
+      display: block;
+      transform: rotate(90deg);
+    }
+  }
+}
+

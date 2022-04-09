@@ -1,0 +1,21 @@
+.road-types{
+  padding: 120px 0 0 120px;
+  position: relative;
+}
+@media screen and (max-width:1430px) {
+  .road-types{
+    padding: 120px 18px 0 18px;
+  }
+}
+@media screen and (max-width:500px){
+  .road-types::after{
+    content: '';
+    position: absolute;
+    background-color: var(--color-line);
+    height: 1px;
+    width: calc(284/320)*100%;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+}

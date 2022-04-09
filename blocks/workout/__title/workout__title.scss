@@ -1,0 +1,11 @@
+.workout__title{
+  margin: 0 0 50px 0;
+  grid-column: 1;
+}
+@media screen and (max-width:1024px){
+  .workout__title{
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+  }
+}

@@ -1,0 +1,20 @@
+.roads__name{
+  line-height: 18px;
+  margin: 117px 0 0 0;
+  position: relative;
+  grid-column: 1;
+  &::after{
+    content: '';
+    position: absolute;
+    left: 224px;
+    top: 8px;
+    background-color: var(--color-stick);
+    width: 132px;
+    height: 2px;
+  }
+}
+@media screen and (max-width:1024px){
+  .roads__name{
+    display: none;
+  }
+}

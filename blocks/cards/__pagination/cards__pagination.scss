@@ -1,0 +1,10 @@
+.cards__pagination{
+  position: static;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  & span{
+    width: 4px;
+    height: 4px;
+  }
+}

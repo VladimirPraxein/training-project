@@ -1,0 +1,18 @@
+.quote__image{
+  max-width: 650px;
+  max-height: 460px;
+  display: block;
+  object-fit: cover;
+}
+@media screen and (max-width:1024px){
+  .quote__image{
+    max-height: 300px;
+  }
+}
+@media screen and (max-width:768px){
+  .quote__image{
+    max-width: 100%;
+
+    margin: 0 auto;
+  }
+}

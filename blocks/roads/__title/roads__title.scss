@@ -1,0 +1,17 @@
+.roads__title{
+  margin: 0;
+  padding: 60px 0 0 0;
+  grid-column: 1;
+}
+@media screen and (max-width:1024px) {
+  .roads__title{
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width:768px){
+  .roads__title{
+    margin: 0 auto 40px auto;
+    padding: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.workout__link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: var(--dark-black);
+  margin: 0 30px 0 0;
+  transition: all 0.3s;
+  &:last-child{
+    margin: 0;
+  }
+}
+@media screen and (max-width:500px){
+  .workout__link{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (hover:hover){
+  .workout__link:hover{
+    opacity: 0.75;
+  }
+}

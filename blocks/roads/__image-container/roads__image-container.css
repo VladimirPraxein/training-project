@@ -1,0 +1,26 @@
+.roads__image-container {
+  position: absolute;
+  transform: translateY(74px);
+  top: 253px;
+  left: -200px;
+  height: 430px;
+}
+
+@media screen and (max-width: 1430px) {
+  .roads__image-container {
+    left: -50px;
+    top: 200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .roads__image-container {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .roads__image-container {
+    transform: none;
+    left: 0;
+    top: 60px;
+  }
+}/*# sourceMappingURL=roads__image-container.css.map */

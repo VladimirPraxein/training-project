@@ -1,0 +1,7 @@
+.switch__button_active {
+  background-color: #545454;
+}
+.switch__button_active::after {
+  left: auto;
+  right: 2px;
+}/*# sourceMappingURL=switch__button_active.css.map */

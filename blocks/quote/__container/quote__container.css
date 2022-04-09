@@ -1,0 +1,11 @@
+.quote__container {
+  max-width: 470px;
+  margin: 0 0 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .quote__container {
+    max-width: 100%;
+    margin: 0;
+  }
+}/*# sourceMappingURL=quote__container.css.map */

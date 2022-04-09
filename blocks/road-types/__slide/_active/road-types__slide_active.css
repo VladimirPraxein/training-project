@@ -1,0 +1,4 @@
+.road-types__slide_active .road-types__title, .road-types__slide_active .road-types__info, .road-types__slide_active .road-types__mountains::after, .road-types__slide_active .road-types__off-road::after, .road-types__slide_active .road-types__smooth::after {
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=road-types__slide_active.css.map */
