@@ -7,7 +7,7 @@ headerBurger.addEventListener('click', () => {
   headerList.classList.toggle('header__menu_active');
 });
 headerList.addEventListener('click', (evt) => {
-  if (evt.target.closest('.header__menu')) {
+  if (evt.target.closest('.header__list')) {
     page.classList.remove('page_scroll-hidden');
     headerBurger.classList.remove('header__burger_active');
     headerList.classList.remove('header__menu_active');
