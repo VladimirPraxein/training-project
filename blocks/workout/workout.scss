@@ -6,23 +6,23 @@
   column-gap: 50px;
   position: relative;
 }
-@media screen and (max-width:1430px) {
+@media screen and (max-width:$maxWidth) {
   .workout{
     padding: 210px 18px 60px 18px;
   }
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:$md1){
   .workout{
     grid-template-columns: minmax(auto,350px) minmax(auto,580px);
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .workout{
     display: block;
     padding: 0 18px 60px 18px;
   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:$md3){
   .workout::after{
     content: '';
     position: absolute;

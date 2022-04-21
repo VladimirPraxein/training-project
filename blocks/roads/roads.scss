@@ -5,20 +5,19 @@
   grid-template-columns: minmax(auto,460px) minmax(auto,610px);
   grid-template-rows:minmax(80px,auto) minmax(72px,auto) minmax(40px,auto) auto;
   gap: 50px 50px;
-  max-height: 836px;
 }
-@media screen and (max-width:1430px){
+@media screen and (max-width:$maxWidth){
   .roads{
     padding: 95px 0 0 18px;
   }
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:$md1) {
   .roads{
     row-gap: 20px;
     grid-template-columns: minmax(auto,460px) 400px;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .roads{
     display: block;
     padding: 70px 18px 0 18px;

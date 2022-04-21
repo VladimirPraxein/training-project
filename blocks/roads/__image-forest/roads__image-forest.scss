@@ -2,7 +2,7 @@
   width: 100%;
   object-fit: cover;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .roads__image-forest{
     max-height: 450px;
   }

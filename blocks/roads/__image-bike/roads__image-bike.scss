@@ -8,7 +8,7 @@
   border-radius: 20px;
   padding: 20px 50px;
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:$md1){
   .roads__image-bike{
     width: 180px;
     height: 140px;

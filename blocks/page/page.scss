@@ -1,5 +1,5 @@
 .page{
-  min-width: 320px;
+  min-width: $minWidth;
   background-color: var(--background-color);
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;

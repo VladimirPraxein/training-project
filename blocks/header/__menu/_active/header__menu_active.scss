@@ -1,6 +1,6 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .header__menu_active{
-    top:0;
+    display: flex;
   }
 }
 

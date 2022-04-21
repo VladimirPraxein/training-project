@@ -5,14 +5,14 @@
   transition: all 0.5s;
   word-wrap: break-word;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:$md1) {
   .road-types__title{
     font-size: 32px;
     line-height: 40px;
     margin: 0 0 40px 0;
   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:$md3){
   .road-types__title{
     max-width: 200px;
   }

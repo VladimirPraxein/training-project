@@ -35,5 +35,7 @@
 @media screen and (max-width: 425px) {
   .roads__button {
     min-width: 100%;
+    font-size: 13px;
+    line-height: 19px;
   }
 }/*# sourceMappingURL=roads__button.css.map */

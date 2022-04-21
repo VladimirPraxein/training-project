@@ -4,7 +4,7 @@
   line-height: 22px;
   margin: 22px 0 0 0;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .cards__name{
     font-size: 14px;
     line-height: 18px;

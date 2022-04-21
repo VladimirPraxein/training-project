@@ -1,13 +1,13 @@
 .bikes__title{
   margin: 0;
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:$md1){
   .bikes__title{
     font-size: 32px;
     line-height: 40px;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .bikes__title{
     margin: 0 0 40px 0;
   }

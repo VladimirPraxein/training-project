@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:$md2) {
   .bikes__menu-title_active{
     &::after{
       transform: rotate(-90deg);

@@ -19,8 +19,7 @@
 }
 @media screen and (max-width: 768px) {
   .roads__image-container {
-    transform: none;
     left: 0;
-    top: 60px;
+    top: -14px;
   }
 }/*# sourceMappingURL=roads__image-container.css.map */

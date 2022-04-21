@@ -4,7 +4,7 @@
   list-style: none;
   display: flex;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:$md2) {
   .bikes__list{
     display: none;
     position: absolute;

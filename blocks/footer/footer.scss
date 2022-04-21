@@ -2,7 +2,7 @@
   background-color: var(--background-footer);
   position: relative;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .footer::after{
     content: var(--color-logo);
     position: absolute;

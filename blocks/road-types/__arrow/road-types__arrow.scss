@@ -1,0 +1,46 @@
+.road-types__arrow {
+  position: static;
+  margin: 0 20px 0 0;
+  border: none;
+  background-color: var(--background-color-arrows);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0;
+  transition: all 0.3s;
+  z-index: 0;
+  &::after{
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 7px 16px;
+    width: 7px;
+    height: 16px;
+  }
+  &:last-child {
+    margin: 0;
+  }
+}
+@media (hover:hover){
+  .road-types__arrow:hover{
+    background-color: var(--background-color-arrows-hover);
+    &::after{
+      opacity: 0.75;
+    }
+  }
+}
+@media screen and (max-width:$md3){
+  .road-types__arrow{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+    &::after{
+      background-size: 5px 10px;
+      width: 5px;
+      height: 10px;
+    }
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

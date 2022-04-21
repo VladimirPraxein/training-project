@@ -5,21 +5,20 @@
   left: -200px;
   height: 430px;
 }
-@media screen and (max-width:1430px) {
+@media screen and (max-width:$maxWidth) {
   .roads__image-container{
     left: -50px;
     top: 200px
   }
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:$md1){
   .roads__image-container{
     height: 250px;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .roads__image-container{
-    transform: none;
     left: 0;
-    top:60px;
+    top:-14px;
   }
 }

@@ -5,7 +5,6 @@
   grid-template-columns: minmax(auto, 460px) minmax(auto, 610px);
   grid-template-rows: minmax(80px, auto) minmax(72px, auto) minmax(40px, auto) auto;
   gap: 50px 50px;
-  max-height: 836px;
 }
 
 @media screen and (max-width: 1430px) {

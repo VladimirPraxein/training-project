@@ -4,17 +4,17 @@
   padding: 120px 120px 0 120px;
   position: relative;
 }
-@media screen and (max-width:1430px) {
+@media screen and (max-width:$maxWidth) {
   .quote{
     padding: 100px 18px 0 18px;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .quote{
     display: block;
   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:$md3){
   .quote::after{
     content: '';
     position: absolute;

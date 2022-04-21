@@ -23,7 +23,7 @@
         <div class="switch__night"></div>
       </div>
     </nav>
-    <div class="header__burger"><span></span></div>
+    <div class="header__burger"><span class="header__burger-bar"></span></div>
   </header>
   <main class="main">
     <section class="roads">
@@ -36,7 +36,7 @@
       </div>
       <p class="roads__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно
         только определиться с выбором велосипеда и отправиться в путь.</p>
-      <button class="roads__button" type="button"><span class="roads__button-bar"></span>Подробнее</button>
+      <a class="roads__button" href="#roads"><span class="roads__button-bar"></span>Подробнее</a>
       <p class="roads__name">Cannondale Systemsix</p>
     </section>
     <section class="quote">
@@ -59,6 +59,7 @@
               горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
             <div class="road-types__mountains">
               <img src="./images/higway.png" alt="Шоссе и горы" class="road-types__image">
+              <span class=" road-types-icon road-types__icon-mountains"></span>
             </div>
           </div>
           <div class="road-types__slide">
@@ -67,21 +68,23 @@
               на нём стоят более широкие покрышки, всё для того чтобы проехать по лёгкому бездорожью.</p>
             <div class="road-types__off-road">
               <img src="./images/gravel.png" alt="Велосипедист едет в лесу" class="road-types__image">
+              <span class="road-types-icon road-types__icon-off-road"></span>
             </div>
           </div>
-          <div class="road-types__slide road-types__slide_surface_smooth">
+          <div class="road-types__slide">
             <h2 class="road-types__title title">ТТ</h2>
             <p class="road-types__info">ТТ — это велосипед для триатлона или раздельного старта, гооняют на таком велике
               только по равнинному асфальту, велик очень быстрые и аэродинамичный.</p>
             <div class="road-types__smooth">
               <img src="./images/triathlon.png" alt="Шоссе и поле" class="road-types__image">
+              <span class="road-types-icon road-types__icon-smooth"></span>
             </div>
           </div>
         </div>
         <!-- If we need navigation buttons -->
         <div class="road-types__buttons">
-          <button class="swiper-button-prev road-types__arrow-prev" type="button"></button>
-          <button class="swiper-button-next road-types__arrow-next" type="button"></button>
+          <button class="swiper-button-prev road-types__arrow road-types__arrow_navigation_prev" type="button"></button>
+          <button class="swiper-button-next road-types__arrow road-types__arrow_navigation_next" type="button"></button>
         </div>
       </div>
     </section>
@@ -121,7 +124,7 @@
             </a>
           </li>
         </ul>
-        <div class="cards__pagination"></div>
+        <div class="bikes__pagination"></div>
       </div>
       <div class="bikes__slider">
         <ul class="cards">
@@ -147,7 +150,7 @@
             </a>
           </li>
         </ul>
-        <div class="cards__pagination"></div>
+        <div class="bikes__pagination"></div>
       </div>
       <div class="bikes__slider">
         <ul class="cards">
@@ -174,7 +177,7 @@
             </a>
           </li>
         </ul>
-        <div class="cards__pagination"></div>
+        <div class="bikes__pagination"></div>
       </div>
       <div class="bikes__slider-desktop bikes__slider-desktop_active">
         <ul class="cards">
@@ -268,8 +271,8 @@
     <div class="footer__content">
       <p class="footer__text">Подпишитесь на рассылку —</p>
       <form action="#" class="footer__form" name="footer-form">
-        <input type="text" class="footer__field" name="mail" placeholder="Ваш e-mail" value="">
-        <span class="footer__confirm">ok</span>
+        <input type="email" class="footer__field" name="mail" placeholder="Ваш e-mail" required>
+        <button class="footer__confirm" type="submit">ok</button>
       </form>
       <div class="footer__row">
         <p class="footer__copyright">&copy; Road Club 2021</p>
@@ -282,7 +285,7 @@
     </div>
   </footer>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script src="./pages/index.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>

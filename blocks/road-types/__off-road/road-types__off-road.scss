@@ -1,30 +1,9 @@
 .road-types__off-road{
   margin: auto 0 0 0;
   position: relative;
-  &::after{
-    content: '';
-    background: url('../images/icon-gravel.svg');
-    background-repeat: no-repeat;
-    background-size: 100px 40px;
-    background-position: center;
-    position: absolute;
-    bottom: 16px;
-    left: 0;
-    width: 100px;
-    height: 40px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
-  }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:$md3){
   .road-types__off-road{
     margin: 0 0 40px 0;
-    &::after{
-      background-size: 70px 28px;
-      width: 70px;
-      height: 28px;
-      bottom: 14px;
-    }
   }
 }

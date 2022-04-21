@@ -1,7 +1,7 @@
 .bikes__menu-title{
   display: none;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:$md2) {
   .bikes__menu-title{
     display: flex;
     justify-content: space-between;

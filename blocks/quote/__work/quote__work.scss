@@ -6,7 +6,7 @@
   color: var(--light-black);
   margin: 0;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:$md3){
   .quote__work{
     font-size: 10px;
     line-height: 16px;

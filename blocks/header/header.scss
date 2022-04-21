@@ -7,13 +7,9 @@
   z-index: 2;
   box-sizing: border-box;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .header{
-    position: static;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 25px 18px 0 18px;
+    min-height: 74px;
   }
 }
 

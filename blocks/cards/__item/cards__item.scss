@@ -4,7 +4,7 @@
 .cards__item:nth-child(3n){
   margin: 0;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .cards__item{
     margin: 0;
     flex-shrink: 0;

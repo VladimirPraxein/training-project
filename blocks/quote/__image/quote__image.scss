@@ -4,12 +4,12 @@
   display: block;
   object-fit: cover;
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:$md1){
   .quote__image{
     max-height: 300px;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .quote__image{
     max-width: 100%;
 

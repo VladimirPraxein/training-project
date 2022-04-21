@@ -10,10 +10,6 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    position: static;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 25px 18px 0 18px;
+    min-height: 74px;
   }
 }/*# sourceMappingURL=header.css.map */

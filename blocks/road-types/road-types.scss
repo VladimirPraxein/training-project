@@ -2,12 +2,12 @@
   padding: 120px 0 0 120px;
   position: relative;
 }
-@media screen and (max-width:1430px) {
+@media screen and (max-width:$maxWidth) {
   .road-types{
     padding: 120px 18px 0 18px;
   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:$md3){
   .road-types::after{
     content: '';
     position: absolute;

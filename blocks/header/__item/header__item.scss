@@ -7,7 +7,7 @@
     margin:0;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:$md2){
   .header__item{
     margin: 0 0 32px 0;
     font-size: 18px;
