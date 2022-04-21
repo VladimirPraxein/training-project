@@ -1,0 +1,19 @@
+.road-types__title{
+  margin: 0 0 50px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  word-wrap: break-word;
+}
+@media screen and (max-width:$md1) {
+  .road-types__title{
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+  }
+}
+@media screen and (max-width:$md3){
+  .road-types__title{
+    max-width: 200px;
+  }
+}

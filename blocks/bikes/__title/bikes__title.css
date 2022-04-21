@@ -1,0 +1,15 @@
+.bikes__title {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .bikes__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bikes__title {
+    margin: 0 0 40px 0;
+  }
+}/*# sourceMappingURL=bikes__title.css.map */

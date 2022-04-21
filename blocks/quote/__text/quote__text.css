@@ -1,0 +1,20 @@
+.quote__text {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  margin: 0 0 260px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .quote__text {
+    font-size: 23px;
+    line-height: 29px;
+    margin: 0 0 80px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .quote__text {
+    margin: 40px 0 40px 0;
+  }
+}/*# sourceMappingURL=quote__text.css.map */

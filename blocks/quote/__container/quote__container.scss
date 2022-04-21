@@ -1,0 +1,10 @@
+.quote__container{
+  max-width: 470px;
+  margin: 0 0 0 20px;
+}
+@media screen and (max-width:$md2){
+  .quote__container{
+    max-width: 100%;
+    margin: 0;
+  }
+}

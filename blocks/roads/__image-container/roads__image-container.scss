@@ -1,0 +1,24 @@
+.roads__image-container{
+  position: absolute;
+  transform: translateY(74px);
+  top: 253px;
+  left: -200px;
+  height: 430px;
+}
+@media screen and (max-width:$maxWidth) {
+  .roads__image-container{
+    left: -50px;
+    top: 200px
+  }
+}
+@media screen and (max-width:$md1){
+  .roads__image-container{
+    height: 250px;
+  }
+}
+@media screen and (max-width:$md2){
+  .roads__image-container{
+    left: 0;
+    top:-14px;
+  }
+}

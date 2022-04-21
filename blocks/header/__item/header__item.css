@@ -1,0 +1,16 @@
+.header__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 34px 0 0;
+}
+.header__item:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header__item {
+    margin: 0 0 32px 0;
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=header__item.css.map */

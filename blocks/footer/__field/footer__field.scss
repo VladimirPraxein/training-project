@@ -1,0 +1,23 @@
+.footer__field{
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  color: var(--dark-black);
+  flex: 1 1 auto;
+  &:focus{
+    outline: none;
+  }
+  &::placeholder{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    opacity: var(--opacity-placeholder);
+    color: var(--dark-black);
+  }
+  &:focus::placeholder{
+    opacity: 1;
+  }
+}

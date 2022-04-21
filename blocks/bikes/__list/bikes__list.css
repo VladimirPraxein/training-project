@@ -1,0 +1,21 @@
+.bikes__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes__list {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    padding: 7px 12px;
+    background-color: var(--background-color);
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #E3E3E3;
+  }
+}/*# sourceMappingURL=bikes__list.css.map */

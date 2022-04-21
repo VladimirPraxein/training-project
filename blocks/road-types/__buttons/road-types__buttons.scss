@@ -1,0 +1,13 @@
+.road-types__buttons{
+  display: flex;
+  margin: 50px 0 0 0;
+}
+@media screen and (max-width:$md3) {
+  .road-types__buttons{
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+  }
+}

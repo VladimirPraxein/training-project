@@ -1,0 +1,11 @@
+.roads__image-forest {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .roads__image-forest {
+    max-height: 450px;
+  }
+}/*# sourceMappingURL=roads__image-forest.css.map */

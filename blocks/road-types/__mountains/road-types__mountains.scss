@@ -1,0 +1,9 @@
+.road-types__mountains{
+  margin: auto 0 0 0;
+  position: relative;
+}
+@media screen and (max-width:$md3){
+  .road-types__mountains{
+    margin: 0 0 40px 0;
+  }
+}

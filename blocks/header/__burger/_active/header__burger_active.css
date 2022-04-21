@@ -1,0 +1,11 @@
+.header__burger_active::before {
+  transform: rotate(45deg);
+  bottom: 8px;
+}
+.header__burger_active::after {
+  transform: rotate(-45deg);
+  top: 8px;
+}
+.header__burger_active span {
+  transform: scale(0);
+}/*# sourceMappingURL=header__burger_active.css.map */

@@ -1,0 +1,6 @@
+.road-types__arrow_navigation_prev {
+  transform: rotate(180deg);
+}
+.road-types__arrow_navigation_prev::after {
+  background: var(--background-arrows);
+}/*# sourceMappingURL=road-types__arrow_navigation_prev.css.map */

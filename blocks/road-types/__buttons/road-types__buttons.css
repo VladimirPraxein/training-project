@@ -1,0 +1,14 @@
+.road-types__buttons {
+  display: flex;
+  margin: 50px 0 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .road-types__buttons {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+  }
+}/*# sourceMappingURL=road-types__buttons.css.map */

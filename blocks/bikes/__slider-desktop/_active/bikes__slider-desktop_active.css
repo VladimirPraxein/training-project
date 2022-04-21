@@ -1,0 +1,9 @@
+.bikes__slider-desktop_active {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes__slider-desktop_active {
+    display: none;
+  }
+}/*# sourceMappingURL=bikes__slider-desktop_active.css.map */

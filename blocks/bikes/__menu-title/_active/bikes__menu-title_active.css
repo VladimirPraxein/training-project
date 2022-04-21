@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .bikes__menu-title_active::after {
+    transform: rotate(-90deg);
+  }
+}/*# sourceMappingURL=bikes__menu-title_active.css.map */

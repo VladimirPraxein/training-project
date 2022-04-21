@@ -1,0 +1,27 @@
+.switch__button{
+  padding: 0;
+  border: none;
+  background-color: #fff;
+  width: 44px;
+  height: 24px;
+  border-radius: 20px;
+  position: relative;
+  margin: 0 22px;
+  cursor: pointer;
+  transition: all 0.3s;
+  &::after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: #24B47E;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+}
+@media (hover:hover) {
+  .switch__button:hover{
+    opacity: 0.7;
+  }
+}

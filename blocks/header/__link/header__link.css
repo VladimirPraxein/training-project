@@ -1,0 +1,11 @@
+.header__link {
+  color: var(--dark-black);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+@media (hover: hover) {
+  .header__link:hover {
+    opacity: 0.75;
+  }
+}/*# sourceMappingURL=header__link.css.map */

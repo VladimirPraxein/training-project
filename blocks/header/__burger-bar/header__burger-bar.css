@@ -1,0 +1,9 @@
+.header__burger-bar {
+  background-color: var(--dark-black);
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  top: 8px;
+  transition: transform 0.3s ease 0s;
+}/*# sourceMappingURL=header__burger-bar.css.map */
