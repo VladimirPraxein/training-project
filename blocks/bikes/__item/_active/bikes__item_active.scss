@@ -1,0 +1,10 @@
+.bikes__item_active{
+  color: var(--dark-black);
+  font-weight: 600;
+  opacity: 1;
+}
+@media (hover:hover){
+  .bikes__item_active:hover{
+    opacity: 0.75;
+  }
+}

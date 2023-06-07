@@ -1,0 +1,23 @@
+:root {
+  --dark-black: #151515;
+  --light-black: #222;
+  --background-color: #F4F4F4;
+  --swiper-theme-color: var(--dark-black);
+  --color-stick: #D7D4D4;
+  --background-arrows: url('../images/theme-day/arrow.svg');
+  --background-color-arrows: #EBEBEB;
+  --background-color-arrows-hover: rgba(235, 235, 235, 0.6);
+  --background-footer: #EFEFEF;
+  --opacity-placeholder: 0.7;
+  --color-copyright: #CFCFCF;
+  --color-icon-day: url(../images/theme-day/icon-day.svg);
+  --color-icon-night: url(../images/theme-day/icon-night.svg);
+  --color-line: #E3E3E3;
+  --color-logo:url(../images/theme-day/icon-logo.svg);
+}
+$minWidth: 320px;
+$maxWidth: 1430px;
+$md1: 1024px;
+$md2: 768px;
+$md3: 500px;
+$md4: 425px;

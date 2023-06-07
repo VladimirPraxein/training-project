@@ -1,0 +1,15 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-color);
+  z-index: 2;
+  box-sizing: border-box;
+}
+@media screen and (max-width:$md2){
+  .header{
+    min-height: 74px;
+  }
+}
+

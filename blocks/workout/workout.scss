@@ -1,0 +1,36 @@
+.workout{
+  padding: 210px 120px 120px 120px;
+  display: grid;
+  grid-template-columns: minmax(auto,460px) minmax(auto,580px);
+  justify-content: space-between;
+  column-gap: 50px;
+  position: relative;
+}
+@media screen and (max-width:$maxWidth) {
+  .workout{
+    padding: 210px 18px 60px 18px;
+  }
+}
+@media screen and (max-width:$md1){
+  .workout{
+    grid-template-columns: minmax(auto,350px) minmax(auto,580px);
+  }
+}
+@media screen and (max-width:$md2){
+  .workout{
+    display: block;
+    padding: 0 18px 60px 18px;
+  }
+}
+@media screen and (max-width:$md3){
+  .workout::after{
+    content: '';
+    position: absolute;
+    background-color: var(--color-line);
+    height: 1px;
+    width: calc(284/320)*100%;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+}

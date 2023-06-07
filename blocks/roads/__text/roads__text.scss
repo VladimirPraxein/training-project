@@ -1,0 +1,16 @@
+.roads__text{
+  @include text-info;
+  margin: 0;
+  grid-column: 1;
+}
+@media screen and (max-width:$md2){
+  .roads__text{
+    margin: 0 0 40px 0;
+  }
+}
+@media screen and (max-width:$md3){
+  .roads__text{
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

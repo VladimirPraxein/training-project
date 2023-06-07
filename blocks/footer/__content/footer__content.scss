@@ -1,0 +1,11 @@
+.footer__content{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 120px 60px 120px;
+  box-sizing: border-box;
+}
+@media screen and (max-width:$maxWidth) {
+  .footer__content{
+    padding: 60px 18px 25px 18px;
+  }
+}

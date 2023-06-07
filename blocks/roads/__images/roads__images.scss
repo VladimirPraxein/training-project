@@ -1,0 +1,13 @@
+.roads__images{
+  position: relative;
+  grid-column: 2;
+  grid-row: 1/5;
+  justify-self: end;
+}
+@media screen and (max-width:$md2){
+  .roads__images{
+    padding: 0 0 0 30px;
+    max-width: 400px;
+    margin: 0 auto 40px auto;
+  }
+}

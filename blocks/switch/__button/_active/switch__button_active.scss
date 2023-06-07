@@ -1,0 +1,7 @@
+.switch__button_active{
+  background-color: #545454;
+  &::after{
+    left: auto;
+    right: 2px;
+  }
+}

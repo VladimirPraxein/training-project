@@ -1,0 +1,12 @@
+.footer{
+  background-color: var(--background-footer);
+  position: relative;
+}
+@media screen and (max-width:$md2){
+  .footer::after{
+    content: var(--color-logo);
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+  }
+}

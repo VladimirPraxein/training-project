@@ -1,0 +1,8 @@
+.bikes__slider-desktop_active{
+  display: block;
+}
+@media screen and (max-width:$md2){
+  .bikes__slider-desktop_active{
+    display: none;
+  }
+}

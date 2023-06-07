@@ -1,0 +1,17 @@
+.theme-dark {
+  --dark-black: #FFFFFF;
+  --light-black: #E5E5E5;
+  --background-color: #333333;
+  --swiper-theme-color:var(--dark-black);
+  --color-stick: #707070;
+  --background-arrows:url("../images/theme-night/arrow.svg");
+  --background-color-arrows:#434343;
+  --background-color-arrows-hover: rgba(67, 67, 67, 0.6);
+  --background-footer:#2F2F2F;
+  --opacity-placeholder: 0.5;
+  --color-copyright: #565656;
+  --color-icon-day: url(../images/theme-night/icon-day.svg);
+  --color-icon-night: url(../images/theme-night/icon-night.svg);
+  --color-line: #707070;
+  --color-logo: url(../images/theme-night/icon-logo.svg);
+}/*# sourceMappingURL=theme-dark.css.map */
